@@ -1,0 +1,15 @@
+Dear {{user}}
+
+This is a reminder that you have scheduled to use CCNY Core Facilities equipment tomorrow, {{ date }}
+
+If you find that the time is no longer needed, please update the online booking calendar accordingly
+
+Equipment	Start	End	Note
+{{equipment}}	{{start }}	{{end }}
+Please note that the data entered in the online calendar is used to generate monthly usage invoices. Keeping schedule accurate not only saves research founds but also allows other researchers to use the equipment effectively
+
+Please contact us if you wish to unsubscribe from this notification
+
+Thank you for using our core facilities,
+
+CCNY CoreLABS team

@@ -1,0 +1,12 @@
+{
+  "autoload":{
+    "psr-4":{
+      "Optout\\" : "usersWhoOptout"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.23",
+    "twig/twig": "~2.0",
+    "swiftmailer/swiftmailer":"^6.0"
+  }
+}

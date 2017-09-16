@@ -1,6 +1,5 @@
 # email_reminder
 Version 2 
-T
 
 This is a complete version of a email reminder PHP script.
 It checks wether the user has opted out. It also combines all the Sessions so that the information is 

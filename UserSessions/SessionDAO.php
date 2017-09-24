@@ -17,7 +17,7 @@ class SessionDAO{
 		$queryInfo = "SELECT CU.id AS Id, CU.email AS userEmail, CS.name AS equipment, concat(CU.firstname, ' ', CU.lastname) AS user, DATE(CTA.start) as date, TIME(CTA.start) AS start, TIME(CTA.end) as end
 		FROM core_timed_activity AS CTA, core_services AS CS, core_users AS CU
 		WHERE CTA.service_id = CS.id AND cta.state = ? and cta.user = cu.id
-		ORDER BY CU.id, CTA.start"; // LIMIT 200";
+		ORDER BY CU.id, CTA.start LIMIT 600";
 
 
 		$queryInfoResults = $connectToDb->prepare($queryInfo);

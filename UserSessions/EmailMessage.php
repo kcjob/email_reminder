@@ -12,6 +12,7 @@ class EmailMessage
       //print_r($emailDataObject);
       $app = new EmailTemplateView();
       $msg = $app->generateView($objValues);
+      //print_R($msg);
       $configEmail = new ConfigEmail($email_params['userName'] , $email_params['userPassword'],$email_params['fromName'], $email_params['sentTo']);
       //EmailSender::mailmsg($msg, $userEmailsAddress, $configEmail);
       EmailSender::mailmsg($msg, $emailDataObject, $configEmail);

@@ -1,0 +1,16 @@
+{
+  "autoload":{
+    "psr-4":{
+      "UserSettings\\" : "UserSettings",
+      "UserSessions\\":"UserSessions",
+      "SettingsOptions\\":"SettingsOptions",
+      "phpUnitTest\\":""
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.23",
+    "twig/twig": "~2.0",
+    "swiftmailer/swiftmailer":"^6.0",
+    "phpunit/phpunit": "^3.7.14"
+  }
+}
